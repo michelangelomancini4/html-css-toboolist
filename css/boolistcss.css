@@ -5,7 +5,8 @@
     
 }
 body{
-    background-color: rgb(165, 212, 241);
+    background-color: rgb(186, 219, 240);
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 /* regole header */
@@ -14,12 +15,18 @@ header{
      
 }
 #logo{    
-    margin-left: 10px;
+    margin-left: 10px;   
     
+}
+#romboolean{
+    vertical-align: middle;
 }
 h1{
     display: inline-block;
-    font-size: 40 px;    
+    padding-bottom: 10px;
+    padding-top: 10px;
+    vertical-align: middle;
+     
 }
 /* regole main */
 main{
@@ -56,11 +63,17 @@ button{
     margin-top: 15px;
 }
 .valid{
+    background-color: white;
+    border: solid 1px black;
+    border-radius: 50%;
     color: green;
     margin-left: 14px;
     
 }
 .invalid{
+    background-color: white;
+    border: solid 1px black;
+    border-radius: 50%;
     color: red;
     margin-left: 14px;
 }
@@ -68,14 +81,15 @@ button{
     font-size: 18px;
     margin-left: 14px;
 }
+/* riquadri */
 .riquadro{
     display: inline-block;
     width: 80px;
     height: 30px;
     font-size: 13 px;      
     color: white;
-    background-color: rgb(40, 81, 162);
-    background-size: 70px;
+    background-color: rgb(38, 151, 217);
+    background-size: 80px;
     border-radius: 20%;
     text-align: center;
     vertical-align: middle;
